@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP DRV8212DRLR
+D Motor / Motion / Ignition Controllers & Drivers 12-V, 2-A Low voltage H-bridge motor driver
+K
+F https://www.ti.com/lit/ds/symlink/drv8212.pdf?ts=1631761675954&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DDRV8212DRLR%2526keyMatch%253DDRV8212DRLR%2526tisearch%253Dsearch-everything%2526usecase%253DOPN
+$ENDCMP
+#
+$CMP BQ27426YZFR
+D Single cell System-Side Battery Fuel (Gas) Gauge w/Pre-programmed Chemistry Profile
+K
+F https://www.ti.com/lit/ds/symlink/bq27426.pdf?ts=1651460808360&ref_url=https%253A%252F%252Fwww.google.com%252F
+$ENDCMP
+#
+#End Doc Library
