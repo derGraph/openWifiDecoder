@@ -4,6 +4,9 @@
 	(generator_version "8.0")
 	(uuid "bdf391a9-01cb-4cc3-af9a-dde3067524fd")
 	(paper "A4")
+	(title_block
+		(rev "2")
+	)
 	(lib_symbols
 		(symbol "Battery_Management:BQ27441DRZT-G1A"
 			(exclude_from_sim no)
@@ -5035,6 +5038,12 @@
 		(uuid "7c1963be-3fd5-4315-9900-88ffb819553c")
 	)
 	(junction
+		(at 121.92 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7cb32ead-12bc-4892-be08-119dcf1f718c")
+	)
+	(junction
 		(at 41.91 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5323,6 +5332,16 @@
 			(type default)
 		)
 		(uuid "1fd31151-c72f-43fe-86a1-3153bafd7890")
+	)
+	(wire
+		(pts
+			(xy 121.92 43.18) (xy 129.54 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23652c02-cc51-42c3-afb9-f9842686b849")
 	)
 	(wire
 		(pts
@@ -6066,6 +6085,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 33.02) (xy 121.92 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "938c942b-c6b3-4fcd-b50b-e3ce46fd984e")
+	)
+	(wire
+		(pts
 			(xy 165.1 45.72) (xy 160.02 45.72)
 		)
 		(stroke
@@ -6173,6 +6202,16 @@
 			(type default)
 		)
 		(uuid "a0cc15f8-2168-4852-9398-6730ce671a97")
+	)
+	(wire
+		(pts
+			(xy 121.92 41.91) (xy 121.92 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a22d8337-3501-4d91-94b9-352225b39a20")
 	)
 	(wire
 		(pts
@@ -6426,7 +6465,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 43.18) (xy 129.54 43.18)
+			(xy 111.76 43.18) (xy 121.92 43.18)
 		)
 		(stroke
 			(width 0)
@@ -9182,6 +9221,72 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
+		(at 121.92 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c1a7f34-1135-490e-b539-e7825a42acf0")
+		(property "Reference" "#PWR052"
+			(at 121.92 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 121.92 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 121.92 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8bf367a1-2a5a-4ac9-8bca-7f09b891be35")
+		)
+		(instances
+			(project "openWifiDecoder"
+				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
 		(at 86.36 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9707,6 +9812,76 @@
 			(project "openWifiDecoder"
 				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 121.92 38.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3708aab0-16ef-4199-a745-7ad78da136ab")
+		(property "Reference" "R14"
+			(at 124.46 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 124.46 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 123.698 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 121.92 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d589dd61-5ab3-48d6-bd92-0fd63a18cd6a")
+		)
+		(pin "1"
+			(uuid "3aa11633-b35b-41b3-9be0-64588101c390")
+		)
+		(instances
+			(project "openWifiDecoder"
+				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd"
+					(reference "R14")
 					(unit 1)
 				)
 			)
