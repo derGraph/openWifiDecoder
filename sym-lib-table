@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "SamacSys_Parts")(type "Legacy")(uri "${KIPRJMOD}/libraries/SamacSys_Parts.lib")(options "")(descr ""))
   (lib (name "easyeda2kicad")(type "KiCad")(uri "${KIPRJMOD}/libraries/easyeda2kicad.kicad_sym")(options "")(descr ""))
+  (lib (name "EasyEda")(type "KiCad")(uri "${KIPRJMOD}/libraries/importer/EasyEDA.kicad_sym")(options "")(descr ""))
 )

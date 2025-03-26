@@ -5,4 +5,6 @@
   (lib (name "easyeda2kicad.3dshapes")(type "KiCad")(uri "${KIPRJMOD}/libraries/easyeda2kicad.3dshapes")(options "")(descr ""))
   (lib (name "easyeda2kicad")(type "KiCad")(uri "${KIPRJMOD}/libraries/easyeda2kicad.pretty")(options "")(descr ""))
   (lib (name "padLib")(type "KiCad")(uri "${KIPRJMOD}/padLib.pretty")(options "")(descr ""))
+  (lib (name "EasyEda")(type "KiCad")(uri "${KIPRJMOD}/libraries/importer/EasyEDA.pretty")(options "")(descr ""))
+  (lib (name "EasyEda.3dshapes")(type "KiCad")(uri "${KIPRJMOD}/libraries/importer/EasyEDA.3dshapes")(options "")(descr ""))
 )
