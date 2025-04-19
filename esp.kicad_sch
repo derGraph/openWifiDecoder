@@ -562,6 +562,124 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "EasyEda:RFANT3216120A5T"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RFANT3216120A5T"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA:FILTER-SMD_1206-2P-L3.2-W1.6-L"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/RF-Filters_RFANT3216120A5T_C127629.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C127629"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RFANT3216120A5T_0_1"
+				(rectangle
+					(start -3.81 2.54)
+					(end 3.81 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -2.54 0)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "EasyEda:W25Q16JVUUIQ"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2186,6 +2304,12 @@
 		(uuid "256b63a2-7715-4dc0-92fc-f2fe6e858a78")
 	)
 	(junction
+		(at 158.75 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "287a5b2a-c12b-4f22-9a37-1da03158a1b9")
+	)
+	(junction
 		(at 130.81 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2222,6 +2346,12 @@
 		(uuid "9c824bee-9896-46ed-8b20-c91c4262c6cc")
 	)
 	(junction
+		(at 168.91 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e096dc2d-faac-45cb-b987-1ccd9a9e84c8")
+	)
+	(junction
 		(at 128.27 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2234,6 +2364,10 @@
 	(no_connect
 		(at 102.87 124.46)
 		(uuid "31e56779-70aa-4577-99f8-5e2d2510c978")
+	)
+	(no_connect
+		(at 182.88 132.08)
+		(uuid "41f7b35c-4091-414d-803c-37fecce60742")
 	)
 	(no_connect
 		(at 148.59 111.76)
@@ -2271,6 +2405,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 132.08) (xy 168.91 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "031ff851-9af7-4f03-9b55-7a84713b9639")
+	)
+	(wire
+		(pts
 			(xy 128.27 54.61) (xy 128.27 63.5)
 		)
 		(stroke
@@ -2281,6 +2425,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 132.08) (xy 170.18 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "067e0d31-b460-4b6e-b21e-ba93effad348")
+	)
+	(wire
+		(pts
 			(xy 198.12 83.82) (xy 198.12 82.55)
 		)
 		(stroke
@@ -2288,6 +2442,16 @@
 			(type default)
 		)
 		(uuid "0b6f42c7-884d-4692-8900-64e649e97ac5")
+	)
+	(wire
+		(pts
+			(xy 168.91 133.35) (xy 168.91 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0df3fcb9-02f9-4aca-b769-f3c966b18ffe")
 	)
 	(wire
 		(pts
@@ -2391,6 +2555,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 132.08) (xy 158.75 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42929cf4-128c-438b-bf84-86279120bca5")
+	)
+	(wire
+		(pts
 			(xy 140.97 59.69) (xy 139.7 59.69)
 		)
 		(stroke
@@ -2428,6 +2602,16 @@
 			(type default)
 		)
 		(uuid "5b3518ad-17b4-474d-9554-ede9afd44ee1")
+	)
+	(wire
+		(pts
+			(xy 152.4 129.54) (xy 148.59 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bcdfb22-a8bd-4c9e-81aa-47b55b23e047")
 	)
 	(wire
 		(pts
@@ -2581,6 +2765,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 128.27) (xy 152.4 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7a627cb-a099-4da4-8bf1-b9d6275dd393")
+	)
+	(wire
+		(pts
 			(xy 123.19 41.91) (xy 123.19 38.1)
 		)
 		(stroke
@@ -2681,6 +2875,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 132.08) (xy 158.75 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da300e02-5e32-45ab-8b02-3967edd67a58")
+	)
+	(wire
+		(pts
 			(xy 106.68 55.88) (xy 106.68 59.69)
 		)
 		(stroke
@@ -2698,6 +2902,16 @@
 			(type default)
 		)
 		(uuid "db9ed8f4-0797-4a3f-b924-49867f4c0ffd")
+	)
+	(wire
+		(pts
+			(xy 158.75 132.08) (xy 158.75 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfe8a46d-c603-4ad9-ac75-cb97b0de9216")
 	)
 	(wire
 		(pts
@@ -3910,6 +4124,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 158.75 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c87d933-6d60-4085-9656-f112a3c1bd6a")
+		(property "Reference" "#PWR07"
+			(at 158.75 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 158.75 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a208813f-3820-4820-988e-1f55bd617e39")
+		)
+		(instances
+			(project ""
+				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd/3dedabdb-9e56-4a1e-a3fb-e530f18aef85"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 90.17 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4040,6 +4320,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 163.83 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4444d8b7-c9c2-42a0-bc3c-39bca1867451")
+		(property "Reference" "L4"
+			(at 163.83 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 163.83 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at 163.83 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 163.83 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "395856af-c0c9-4b97-8282-4cc39d02eee4")
+		)
+		(pin "1"
+			(uuid "22addcbb-dbc8-412b-a6ea-9b4e7e06d4b3")
+		)
+		(instances
+			(project ""
+				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd/3dedabdb-9e56-4a1e-a3fb-e530f18aef85"
+					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 134.62 45.72 90)
 		(unit 1)
@@ -4107,6 +4455,83 @@
 		)
 	)
 	(symbol
+		(lib_id "EasyEda:RFANT3216120A5T")
+		(at 176.53 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52b5ece2-4f9b-482b-9096-2a64971b231b")
+		(property "Reference" "U9"
+			(at 176.53 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RFANT3216120A5T"
+			(at 176.53 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEda:FILTER-SMD_1206-2P-L3.2-W1.6-L"
+			(at 176.53 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/RF-Filters_RFANT3216120A5T_C127629.html"
+			(at 176.53 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C127629"
+			(at 176.53 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b2b2cd1-9623-4bfd-bef1-8ea03a42a6c8")
+		)
+		(pin "2"
+			(uuid "608ece34-1f78-4e58-9b6c-5b53f418426c")
+		)
+		(instances
+			(project ""
+				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd/3dedabdb-9e56-4a1e-a3fb-e530f18aef85"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EasyEda:W25Q16JVUUIQ")
 		(at 198.12 73.66 0)
 		(unit 1)
@@ -4134,7 +4559,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EasyEDA:USON-8_L4.0-W3.0-P0.80-BL_AT25SL321"
+		(property "Footprint" "EasyEda:USON-8_L4.0-W3.0-P0.80-BL_AT25SL321"
 			(at 198.12 90.17 0)
 			(effects
 				(font
@@ -4475,6 +4900,146 @@
 			(project "openWifiDecoder"
 				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd/3dedabdb-9e56-4a1e-a3fb-e530f18aef85"
 					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 168.91 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6283f7bf-46e4-497a-9be5-068029665621")
+		(property "Reference" "C25"
+			(at 172.72 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 172.72 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 169.8752 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 168.91 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f79daab-751f-4693-9ebe-de96644f007f")
+		)
+		(pin "2"
+			(uuid "c15ba25a-9d64-4ed6-9924-78e747a1a8e2")
+		)
+		(instances
+			(project "openWifiDecoder"
+				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd/3dedabdb-9e56-4a1e-a3fb-e530f18aef85"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 158.75 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67ca999c-0cc2-4f4a-a5b1-f9f104c7f898")
+		(property "Reference" "C24"
+			(at 162.56 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 162.56 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 159.7152 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 158.75 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49048956-46c5-4d43-bb69-84ef69d7f1f4")
+		)
+		(pin "2"
+			(uuid "2ce769b9-ec5a-4b1c-bbeb-3937d59030d3")
+		)
+		(instances
+			(project ""
+				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd/3dedabdb-9e56-4a1e-a3fb-e530f18aef85"
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -5220,6 +5785,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 152.4 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eeb5b8d7-2eef-4c87-9e3f-d59c192949ce")
+		(property "Reference" "#PWR076"
+			(at 152.4 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 152.4 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 152.4 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55074bef-fc42-4b20-9697-4d21f92a6cff")
+		)
+		(instances
+			(project "openWifiDecoder"
+				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd/3dedabdb-9e56-4a1e-a3fb-e530f18aef85"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 140.97 46.99 0)
 		(unit 1)
@@ -5279,6 +5909,72 @@
 			(project "openWifiDecoder"
 				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd/3dedabdb-9e56-4a1e-a3fb-e530f18aef85"
 					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 168.91 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f26f8ada-bf0f-4963-9844-8d56da6c90b5")
+		(property "Reference" "#PWR073"
+			(at 168.91 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 168.91 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c10398d9-ac93-40d9-be78-0022317a6719")
+		)
+		(instances
+			(project "openWifiDecoder"
+				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd/3dedabdb-9e56-4a1e-a3fb-e530f18aef85"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
