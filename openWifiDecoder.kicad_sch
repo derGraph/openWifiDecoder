@@ -679,129 +679,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x01_Socket"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01_Socket"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x01_Socket_1_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.508)
-					(mid -0.5058 0)
-					(end 0 0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
@@ -1849,6 +1726,192 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Linear:MIC5317-1.8xM5"
 			(pin_names
 				(offset 0.254)
@@ -2782,232 +2845,6 @@
 						)
 					)
 					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "easyeda2kicad:1TS026A-1600-0553-CT"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1TS026A-1600-0553-CT"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:SW-SMD_4P-L2.6-W1.6-P0.75-LS3.0"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C913784"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1TS026A-1600-0553-CT_0_1"
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 1.52)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.52) (xy 0 0.76)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0.76)
-					(radius 0.25)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -0.76)
-					(radius 0.25)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -0.76)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.02) (xy 0.25 -0.76)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy -2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4036,16 +3873,6 @@
 		)
 		(uuid "26cad501-a5c2-4fd3-90cb-aa52d24c6cf2")
 	)
-	(text "INTERRUPT"
-		(exclude_from_sim no)
-		(at 182.118 71.374 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-		)
-		(uuid "3797915d-d14e-4550-a759-39862c7c8cff")
-	)
 	(text "Microcontroller"
 		(exclude_from_sim no)
 		(at 85.598 31.242 0)
@@ -4065,16 +3892,6 @@
 			)
 		)
 		(uuid "788a172d-175e-47d6-a160-5ffda1ad35e8")
-	)
-	(text "Trigger IMU"
-		(exclude_from_sim no)
-		(at 84.582 103.632 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-		)
-		(uuid "791154fc-e75d-4126-bc3e-17dcf47140be")
 	)
 	(text "Battery Charger"
 		(exclude_from_sim no)
@@ -4106,16 +3923,6 @@
 		)
 		(uuid "ad9a7f52-ac7e-41b1-9f7e-ceaf638ca30b")
 	)
-	(text "INTERRUPT"
-		(exclude_from_sim no)
-		(at 85.09 100.33 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-		)
-		(uuid "b6bef82d-75c2-4a6a-ae9c-d7024d72e1f6")
-	)
 	(text "USB-C Connector"
 		(exclude_from_sim no)
 		(at 140.716 144.272 0)
@@ -4146,16 +3953,6 @@
 		)
 		(uuid "f87de769-5018-4e67-aa4f-cf7561e60632")
 	)
-	(text "PULLUP\nINTERRUPT"
-		(exclude_from_sim no)
-		(at 180.086 101.854 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-		)
-		(uuid "f8d8dcca-0941-45b7-ac9f-03ad27dfea53")
-	)
 	(junction
 		(at 118.11 163.83)
 		(diameter 0)
@@ -4173,18 +3970,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "02562674-8d46-4917-8927-7bd13e191bed")
-	)
-	(junction
-		(at 172.72 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0270d491-d6bd-4a4f-afb7-19d7734a90d8")
-	)
-	(junction
-		(at 67.31 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "06f6bf5c-5e43-47ed-8288-0d9c58b8760b")
 	)
 	(junction
 		(at 120.65 176.53)
@@ -4241,12 +4026,6 @@
 		(uuid "40e7e261-fa23-4e3b-b449-07a8db7f70c5")
 	)
 	(junction
-		(at 189.23 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c830c1b-4e8d-4ad9-9bf4-1acfbe9b32cd")
-	)
-	(junction
 		(at 57.15 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4275,12 +4054,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72c60986-6af9-4ca8-bb5f-1da42b203439")
-	)
-	(junction
-		(at 87.63 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7cb32ead-12bc-4892-be08-119dcf1f718c")
 	)
 	(junction
 		(at 41.91 71.12)
@@ -4337,16 +4110,16 @@
 		(uuid "b2ee22b3-449a-4c7f-adfa-2af3aeee31a0")
 	)
 	(junction
+		(at 137.16 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b87cb668-c117-4699-bc69-c9991bfc2549")
+	)
+	(junction
 		(at 29.21 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b89ae5c0-72d4-4fe6-a678-010e5580aca3")
-	)
-	(junction
-		(at 77.47 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "baaa24ed-52fd-474d-8a60-438993b2b956")
 	)
 	(junction
 		(at 29.21 26.67)
@@ -4361,22 +4134,10 @@
 		(uuid "c5481762-e9b1-4bd2-9c99-afd99ab645b9")
 	)
 	(junction
-		(at 66.04 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c83bd0c4-b8e5-4640-99e5-8a7786f208a7")
-	)
-	(junction
 		(at 162.56 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c992feb6-0cb7-4956-999c-60fdbf7710ec")
-	)
-	(junction
-		(at 77.47 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cda8e186-fda6-424e-a693-a2c0b8439b3e")
 	)
 	(junction
 		(at 231.14 35.56)
@@ -4391,12 +4152,6 @@
 		(uuid "d539fbfe-c77d-4643-ac3f-11a6b7a069ce")
 	)
 	(junction
-		(at 172.72 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d623f410-50f0-41dd-8e39-9fb87d1d641e")
-	)
-	(junction
 		(at 210.82 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4408,47 +4163,21 @@
 		(color 0 0 0 0)
 		(uuid "eb783c5e-b79d-46b1-8be4-3e07c66592c6")
 	)
-	(junction
-		(at 67.31 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f1e7247e-aa84-4ee5-9714-1934d90da42b")
-	)
 	(no_connect
-		(at 167.64 66.04)
+		(at 132.08 99.06)
 		(uuid "3b4722b6-24d2-40b5-8363-4dd4cdb69467")
-	)
-	(no_connect
-		(at 167.64 99.06)
-		(uuid "56966acc-576c-47d9-b176-2cca4ab10f3e")
 	)
 	(no_connect
 		(at 57.15 90.17)
 		(uuid "6d1dfae3-1e0b-4eb5-9f98-de7e9a328264")
 	)
 	(no_connect
-		(at 95.25 97.79)
-		(uuid "73a8a7f3-1011-4391-8a31-4e76aa14cb7f")
-	)
-	(no_connect
-		(at 95.25 69.85)
-		(uuid "7c8d4b2f-71be-4401-8130-1fdd663edc4b")
-	)
-	(no_connect
 		(at 264.16 39.37)
 		(uuid "91b36a54-ed11-4298-948b-57042f06ce88")
 	)
 	(no_connect
-		(at 167.64 83.82)
-		(uuid "cd741be1-a0e5-4ddd-b6b8-a0b5f452211f")
-	)
-	(no_connect
 		(at 57.15 87.63)
 		(uuid "dbf12858-576f-420f-8ba1-dea5c5331939")
-	)
-	(no_connect
-		(at 167.64 86.36)
-		(uuid "e269ee9d-4022-4b2e-8f62-a6e0c226b83e")
 	)
 	(no_connect
 		(at 242.57 163.83)
@@ -4486,23 +4215,13 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 57.15) (xy 67.31 57.15)
+			(xy 134.62 99.06) (xy 134.62 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0f53bb82-9211-456a-8e92-71eb95a39106")
-	)
-	(wire
-		(pts
-			(xy 69.85 67.31) (xy 67.31 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f569141-32fc-47cc-949e-963307876849")
+		(uuid "0ebacc5f-6616-460f-8aae-24c7dda1dea2")
 	)
 	(wire
 		(pts
@@ -4546,16 +4265,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 57.15) (xy 69.85 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15d225e5-91c2-4de2-9592-7c7dfd3ea325")
-	)
-	(wire
-		(pts
 			(xy 241.3 74.93) (xy 242.57 74.93)
 		)
 		(stroke
@@ -4563,16 +4272,6 @@
 			(type default)
 		)
 		(uuid "1a17ba6e-55a3-4c0f-85d0-fbdbc53f97ad")
-	)
-	(wire
-		(pts
-			(xy 69.85 41.91) (xy 67.31 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c0f2854-22ab-4043-8f5e-dc0f3a2fbece")
 	)
 	(wire
 		(pts
@@ -4603,26 +4302,6 @@
 			(type default)
 		)
 		(uuid "1e743303-ad57-4c9d-a796-4eb1e0a3266f")
-	)
-	(wire
-		(pts
-			(xy 173.99 58.42) (xy 172.72 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fd31151-c72f-43fe-86a1-3153bafd7890")
-	)
-	(wire
-		(pts
-			(xy 87.63 52.07) (xy 95.25 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23652c02-cc51-42c3-afb9-f9842686b849")
 	)
 	(wire
 		(pts
@@ -4663,26 +4342,6 @@
 			(type default)
 		)
 		(uuid "24e5525f-66c5-4a42-b2b5-a6d345206757")
-	)
-	(wire
-		(pts
-			(xy 66.04 58.42) (xy 66.04 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25e82367-161e-409f-8fc6-88b731952ef3")
-	)
-	(wire
-		(pts
-			(xy 74.93 67.31) (xy 77.47 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27479a39-32c2-49f6-86d0-e99de3d7b3cf")
 	)
 	(wire
 		(pts
@@ -4806,16 +4465,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 52.07) (xy 77.47 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ebb6969-3f79-43e8-8279-06d01bf9b1f3")
-	)
-	(wire
-		(pts
 			(xy 140.97 182.88) (xy 143.51 182.88)
 		)
 		(stroke
@@ -4836,16 +4485,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 52.07) (xy 66.04 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40508bd2-4087-4fc3-a3c9-d6bab37e68c3")
-	)
-	(wire
-		(pts
 			(xy 83.82 175.26) (xy 87.63 175.26)
 		)
 		(stroke
@@ -4863,16 +4502,6 @@
 			(type default)
 		)
 		(uuid "44d24676-32c6-4573-9227-a51f076d1b4a")
-	)
-	(wire
-		(pts
-			(xy 167.64 53.34) (xy 172.72 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46703cb3-3b7e-4c6f-9c2f-841b3ba397c8")
 	)
 	(wire
 		(pts
@@ -4936,16 +4565,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 55.88) (xy 173.99 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4eeacc60-ea37-4ade-afc6-dc80958a5b1f")
-	)
-	(wire
-		(pts
 			(xy 280.67 35.56) (xy 280.67 36.83)
 		)
 		(stroke
@@ -4993,16 +4612,6 @@
 			(type default)
 		)
 		(uuid "557cc49e-f84e-43f1-86d8-b946ea4208cf")
-	)
-	(wire
-		(pts
-			(xy 77.47 57.15) (xy 77.47 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55f5e1fc-df87-44ef-8ace-4a57e5810c1e")
 	)
 	(wire
 		(pts
@@ -5136,16 +4745,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 49.53) (xy 172.72 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66228723-a462-4dc0-a46d-320e948dc52b")
-	)
-	(wire
-		(pts
 			(xy 46.99 71.12) (xy 46.99 72.39)
 		)
 		(stroke
@@ -5246,6 +4845,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 107.95) (xy 129.54 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "740eb34c-4f46-48cd-ab90-126ed7452eee")
+	)
+	(wire
+		(pts
 			(xy 252.73 154.94) (xy 252.73 156.21)
 		)
 		(stroke
@@ -5256,13 +4865,13 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 58.42) (xy 172.72 55.88)
+			(xy 137.16 100.33) (xy 137.16 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7591f861-88f8-49c2-8ae9-ed3f1d3beea6")
+		(uuid "76e890df-9e1b-4e93-b9af-2635ee0e726e")
 	)
 	(wire
 		(pts
@@ -5273,16 +4882,6 @@
 			(type default)
 		)
 		(uuid "77687eaa-ae5f-4fee-a613-d9935f81876a")
-	)
-	(wire
-		(pts
-			(xy 172.72 49.53) (xy 172.72 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a3b4c76-9261-4cf1-a7eb-7f73673a464c")
 	)
 	(wire
 		(pts
@@ -5396,16 +4995,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 53.34) (xy 173.99 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87db25b2-f355-485b-8cc6-4437d15ed6cc")
-	)
-	(wire
-		(pts
 			(xy 34.29 172.72) (xy 66.04 172.72)
 		)
 		(stroke
@@ -5423,6 +5012,16 @@
 			(type default)
 		)
 		(uuid "89af5d46-0b5f-4a62-8e41-32d1cc3bf681")
+	)
+	(wire
+		(pts
+			(xy 167.64 83.82) (xy 167.64 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aa63eac-499f-4625-b9b5-ecb7961a88cd")
 	)
 	(wire
 		(pts
@@ -5466,26 +5065,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 41.91) (xy 87.63 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "938c942b-c6b3-4fcd-b50b-e3ce46fd984e")
-	)
-	(wire
-		(pts
-			(xy 172.72 55.88) (xy 167.64 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "948b267e-4f80-44b1-80db-de604201f85c")
-	)
-	(wire
-		(pts
 			(xy 140.97 152.4) (xy 140.97 154.94)
 		)
 		(stroke
@@ -5513,16 +5092,6 @@
 			(type default)
 		)
 		(uuid "97a7b9d3-ca94-435f-93ce-1edc02d37aa3")
-	)
-	(wire
-		(pts
-			(xy 67.31 41.91) (xy 67.31 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98b63f04-4736-4919-a4e4-a7d688887122")
 	)
 	(wire
 		(pts
@@ -5556,6 +5125,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 109.22) (xy 115.57 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aa2fa2a-9138-4f23-8de9-23c480602a00")
+	)
+	(wire
+		(pts
 			(xy 33.02 172.72) (xy 34.29 172.72)
 		)
 		(stroke
@@ -5586,13 +5165,23 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 50.8) (xy 87.63 52.07)
+			(xy 137.16 101.6) (xy 137.16 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a22d8337-3501-4d91-94b9-352225b39a20")
+		(uuid "a1e208d9-201c-4629-a4cd-ad3fb0b5f44e")
+	)
+	(wire
+		(pts
+			(xy 134.62 100.33) (xy 137.16 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3768717-27ff-48c1-a320-b2b89b863665")
 	)
 	(wire
 		(pts
@@ -5686,16 +5275,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 52.07) (xy 69.85 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b36bb858-1d4a-4824-8671-5aecad009446")
-	)
-	(wire
-		(pts
 			(xy 118.11 160.02) (xy 118.11 163.83)
 		)
 		(stroke
@@ -5766,6 +5345,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 107.95) (xy 116.84 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1e2056d-7bf8-4961-a626-9309177bdb35")
+	)
+	(wire
+		(pts
 			(xy 213.36 120.65) (xy 215.9 120.65)
 		)
 		(stroke
@@ -5783,36 +5372,6 @@
 			(type default)
 		)
 		(uuid "c2ba16f8-9e5d-4be6-b27d-26991d74795f")
-	)
-	(wire
-		(pts
-			(xy 77.47 57.15) (xy 95.25 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3950f05-e515-47f0-bed2-e8bc5c61a2b2")
-	)
-	(wire
-		(pts
-			(xy 77.47 41.91) (xy 77.47 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3d73f9f-a017-48b0-9b0e-2c6f5bb40b58")
-	)
-	(wire
-		(pts
-			(xy 191.77 63.5) (xy 189.23 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c46fac69-2bda-429f-a755-9efdd205e393")
 	)
 	(wire
 		(pts
@@ -5876,16 +5435,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 52.07) (xy 87.63 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb3c7601-5214-433c-8f1d-bf6b6aa2ad27")
-	)
-	(wire
-		(pts
 			(xy 34.29 179.07) (xy 34.29 172.72)
 		)
 		(stroke
@@ -5906,16 +5455,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 57.15) (xy 77.47 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d21098fd-630d-4559-ba11-2af34f6ecf71")
-	)
-	(wire
-		(pts
 			(xy 71.12 165.1) (xy 71.12 166.37)
 		)
 		(stroke
@@ -5923,6 +5462,26 @@
 			(type default)
 		)
 		(uuid "d236a77f-ce10-406d-bae4-ea3b8115f363")
+	)
+	(wire
+		(pts
+			(xy 151.13 85.09) (xy 167.64 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3b33cd5-99d2-46b0-a032-a485750999c4")
+	)
+	(wire
+		(pts
+			(xy 167.64 74.93) (xy 167.64 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3b61713-2cfb-47c8-96fe-150af0dcae03")
 	)
 	(wire
 		(pts
@@ -5963,16 +5522,6 @@
 			(type default)
 		)
 		(uuid "d64ed4e0-9325-4ca7-bc3d-77de8b831e3f")
-	)
-	(wire
-		(pts
-			(xy 66.04 52.07) (xy 67.31 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d96334de-e6c2-4dda-81e3-9c93b68b311b")
 	)
 	(wire
 		(pts
@@ -6033,16 +5582,6 @@
 			(type default)
 		)
 		(uuid "dfde53ef-e02a-482c-ba90-f48b9a7d904d")
-	)
-	(wire
-		(pts
-			(xy 67.31 67.31) (xy 67.31 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfe671ff-b12c-48e8-8e5f-58d2096b3aa9")
 	)
 	(wire
 		(pts
@@ -6136,26 +5675,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 41.91) (xy 77.47 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecce079f-d328-4397-b76b-e028adb66286")
-	)
-	(wire
-		(pts
-			(xy 167.64 63.5) (xy 189.23 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee386f7e-111e-4283-9fc8-e9ab9fb1ca40")
-	)
-	(wire
-		(pts
 			(xy 269.24 33.02) (xy 269.24 34.29)
 		)
 		(stroke
@@ -6163,6 +5682,16 @@
 			(type default)
 		)
 		(uuid "f16ba67c-2707-47fa-bf67-71d194633085")
+	)
+	(wire
+		(pts
+			(xy 129.54 107.95) (xy 129.54 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2017858-0283-46e1-9532-55ef0fd428d1")
 	)
 	(wire
 		(pts
@@ -6282,29 +5811,29 @@
 	)
 	(global_label "SCL"
 		(shape bidirectional)
-		(at 167.64 104.14 0)
+		(at 114.3 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "426173f8-63e8-43b2-9678-705ee6d88171")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.2441 104.14 0)
+			(at 106.6959 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "FSYNC"
 		(shape output)
-		(at 95.25 102.87 180)
+		(at 114.3 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6314,7 +5843,7 @@
 		)
 		(uuid "4a8776e0-74ce-4cc1-9903-58eb304bc1a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.2776 102.87 0)
+			(at 105.3276 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6370,44 +5899,22 @@
 	)
 	(global_label "DIG_HALL"
 		(shape input)
-		(at 167.64 71.12 0)
+		(at 114.3 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "52eaf805-2cb1-44aa-b589-e5a7bf7a83b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.2129 71.12 0)
+			(at 102.7271 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TX"
-		(shape output)
-		(at 175.26 49.53 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5c3832b4-849e-44de-9527-6dfe48ac221f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.4223 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6436,110 +5943,110 @@
 	)
 	(global_label "MPWM1"
 		(shape output)
-		(at 167.64 91.44 0)
+		(at 114.3 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "6b064cad-fe21-4d7e-9ddf-27b653caa36e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.4589 91.44 0)
+			(at 104.4811 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "SDA"
 		(shape bidirectional)
-		(at 167.64 73.66 0)
+		(at 114.3 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "7215cb3a-1b4c-4dd0-8146-03dbe7d8d378")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.3046 73.66 0)
+			(at 106.6354 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "D+"
 		(shape bidirectional)
-		(at 191.77 63.5 0)
+		(at 114.3 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "77d9d629-efa3-4850-92f8-78e4b0b33dda")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.7089 63.5 0)
+			(at 107.3611 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "D-"
 		(shape bidirectional)
-		(at 167.64 60.96 0)
+		(at 114.3 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "8d5a5ec6-129b-4172-b0aa-4d1e1dbf2dcf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.5789 60.96 0)
+			(at 107.3611 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "COMP_DAC"
 		(shape output)
-		(at 167.64 68.58 0)
+		(at 114.3 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "93c29342-c42d-406b-b84f-2921744754c2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.5433 68.58 0)
+			(at 101.3967 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6612,29 +6119,29 @@
 	)
 	(global_label "MPWM2"
 		(shape output)
-		(at 167.64 93.98 0)
+		(at 114.3 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "b146c6fc-831a-42eb-a68f-379d2456363a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.4589 93.98 0)
+			(at 104.4811 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "GAUGE_INT"
 		(shape input)
-		(at 167.64 101.6 0)
+		(at 151.13 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6644,29 +6151,7 @@
 		)
 		(uuid "c0dd3485-3d4e-405e-b544-bf3bc1344558")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.6038 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RX"
-		(shape input)
-		(at 173.99 58.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c3c7f756-9397-4319-bdd4-10b415cab295")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.4547 58.42 0)
+			(at 164.0938 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6700,7 +6185,7 @@
 	)
 	(global_label "IMU_INT"
 		(shape output)
-		(at 95.25 100.33 180)
+		(at 114.3 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6710,7 +6195,7 @@
 		)
 		(uuid "c8c5a1de-4ada-421e-84ff-a83783c857e0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.0076 100.33 0)
+			(at 104.0576 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7422,24 +6907,25 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 179.07 55.88 0)
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 120.65 107.95 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "142879a2-caa3-4631-ae52-e2a93df22cb8")
-		(property "Reference" "RX0"
-			(at 181.102 55.88 0)
+		(fields_autoplaced yes)
+		(uuid "14419b2b-9a82-4d5c-a731-e7a6400c2b60")
+		(property "Reference" "JP1"
+			(at 120.65 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_01x01_Socket"
-			(at 178.435 58.42 0)
+		(property "Value" "Download Mode"
+			(at 120.65 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7447,8 +6933,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "padLib:SolderPad_1mm_1Pin"
-			(at 179.07 55.88 0)
+		(property "Footprint" "padLib:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm_SMALLER"
+			(at 120.65 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7457,7 +6943,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 55.88 0)
+			(at 120.65 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7465,8 +6951,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 179.07 55.88 0)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 120.65 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7475,12 +6961,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "42489d66-d575-4646-a333-350a9d86a8fa")
+			(uuid "65832b16-6077-4538-b4c5-a21fc3c36dd7")
+		)
+		(pin "2"
+			(uuid "3c462fc4-9120-4c35-8ab8-a49d935d6207")
 		)
 		(instances
-			(project "openWifiDecoder"
+			(project ""
 				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd"
-					(reference "RX0")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -7641,201 +7130,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 90.17 90.17 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "15c51015-3735-484a-93e9-54db2955f8fe")
-		(property "Reference" "IO12"
-			(at 87.884 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Socket"
-			(at 90.805 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "padLib:SolderPad_1mm_1Pin"
-			(at 90.17 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 90.17 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1f5da7ae-8270-46e8-92d4-1ca39c4afd9a")
-		)
-		(instances
-			(project "openWifiDecoder"
-				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd"
-					(reference "IO12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 90.17 85.09 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "183a31c3-cf09-4550-b1f1-8db406817501")
-		(property "Reference" "IO1"
-			(at 87.376 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1"
-			(at 90.805 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "padLib:SolderPad_1mm_1Pin"
-			(at 90.17 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 90.17 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e490a50c-238f-4c07-8158-2b608ad9f295")
-		)
-		(instances
-			(project "openWifiDecoder"
-				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd"
-					(reference "IO1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 90.17 72.39 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "18939965-8dde-4c8c-b2af-50f75c337f45")
-		(property "Reference" "IO4"
-			(at 87.376 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Socket"
-			(at 90.805 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "padLib:SolderPad_1mm_1Pin"
-			(at 90.17 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 90.17 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "75ac6c15-be4c-415d-b6f8-caa8b891bbe2")
-		)
-		(instances
-			(project "openWifiDecoder"
-				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd"
-					(reference "IO4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 243.84 154.94 0)
 		(unit 1)
@@ -7902,24 +7196,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 90.17 59.69 180)
+		(lib_id "power:GND")
+		(at 137.16 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1bbb7615-5490-4960-9013-0c8a82fa3a7d")
-		(property "Reference" "IO8"
-			(at 87.376 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1"
-			(at 90.805 57.15 0)
+		(fields_autoplaced yes)
+		(uuid "211499c4-9d7b-47dd-b614-f5cf1f7858b2")
+		(property "Reference" "#PWR075"
+			(at 137.16 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7927,8 +7214,16 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "padLib:SolderPad_1mm_1Pin"
-			(at 90.17 59.69 0)
+		(property "Value" "GND"
+			(at 137.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7936,8 +7231,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 90.17 59.69 0)
+		(property "Datasheet" ""
+			(at 137.16 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7945,8 +7240,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 90.17 59.69 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7955,142 +7250,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "830bd2a2-8552-40bb-bd89-86379c1c9197")
-		)
-		(instances
-			(project ""
-				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd"
-					(reference "IO8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 90.17 77.47 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "1de15818-f337-4bdf-b55a-821053b8da9d")
-		(property "Reference" "IO10"
-			(at 87.884 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Socket"
-			(at 90.805 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "padLib:SolderPad_1mm_1Pin"
-			(at 90.17 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 90.17 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "01ea0fee-7c91-471d-82b6-a4fc65eb9c21")
+			(uuid "4a62b30e-3167-44ae-9737-b99a8d053b08")
 		)
 		(instances
 			(project "openWifiDecoder"
 				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd"
-					(reference "IO10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 90.17 95.25 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "202bbd4d-50f8-499b-81fc-2e3754069ef1")
-		(property "Reference" "IO14"
-			(at 87.884 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Socket"
-			(at 90.805 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "padLib:SolderPad_1mm_1Pin"
-			(at 90.17 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 90.17 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "00a4ca57-8daa-4583-910a-b62b755ab40d")
-		)
-		(instances
-			(project "openWifiDecoder"
-				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd"
-					(reference "IO14")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -8157,90 +7322,6 @@
 			(project ""
 				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd"
 					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:1TS026A-1600-0553-CT")
-		(at 72.39 62.23 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "21d40876-d4d5-4a1f-957f-13bdfa4f8e98")
-		(property "Reference" "FLASH1"
-			(at 77.978 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "FLASH"
-			(at 77.978 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L2.6-W1.6-P0.75-LS3.0"
-			(at 82.55 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 72.39 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C913784"
-			(at 85.09 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "d94ebf10-fbef-4090-ac7d-391d57d7242e")
-		)
-		(pin "1"
-			(uuid "54e12ba5-74ce-43a9-b55f-6c5e167a4314")
-		)
-		(pin "2"
-			(uuid "d8df4ee9-6da8-4058-a323-48a5b7b340e3")
-		)
-		(pin "4"
-			(uuid "3855f2d3-7094-4a81-8692-114e1f0a93e1")
-		)
-		(instances
-			(project "openWifiDecoder"
-				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd"
-					(reference "FLASH1")
 					(unit 1)
 				)
 			)
@@ -8380,71 +7461,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 90.17 80.01 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "27a6691e-3f58-4de2-86b7-a8dfe56ef120")
-		(property "Reference" "IO3"
-			(at 87.376 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3"
-			(at 90.805 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "padLib:SolderPad_1mm_1Pin"
-			(at 90.17 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 90.17 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1de1fa60-21f0-417e-b6b0-04d8a414eb5f")
-		)
-		(instances
-			(project "openWifiDecoder"
-				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd"
-					(reference "IO3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 71.12 186.69 0)
 		(unit 1)
@@ -8512,7 +7528,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 87.63 41.91 0)
+		(at 167.64 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8521,7 +7537,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c1a7f34-1135-490e-b539-e7825a42acf0")
 		(property "Reference" "#PWR052"
-			(at 87.63 45.72 0)
+			(at 167.64 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8530,7 +7546,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 87.63 36.83 0)
+			(at 167.64 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8538,7 +7554,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 41.91 0)
+			(at 167.64 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8547,7 +7563,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 41.91 0)
+			(at 167.64 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8556,7 +7572,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 87.63 41.91 0)
+			(at 167.64 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8706,71 +7722,6 @@
 			(project "openWifiDecoder"
 				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd"
 					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 172.72 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "334fc8d9-da4b-4223-92fc-de804d2fecb6")
-		(property "Reference" "IO15"
-			(at 175.514 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Socket"
-			(at 172.085 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "padLib:SolderPad_1mm_1Pin"
-			(at 172.72 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 172.72 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0646ae85-6ebd-47b2-8bc7-50b72373c20d")
-		)
-		(instances
-			(project "openWifiDecoder"
-				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd"
-					(reference "IO15")
 					(unit 1)
 				)
 			)
@@ -9179,7 +8130,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 87.63 46.99 180)
+		(at 167.64 80.01 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9188,7 +8139,7 @@
 		(fields_autoplaced yes)
 		(uuid "3708aab0-16ef-4199-a745-7ad78da136ab")
 		(property "Reference" "R14"
-			(at 90.17 45.7199 0)
+			(at 170.18 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9197,7 +8148,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 90.17 48.2599 0)
+			(at 170.18 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9206,7 +8157,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 89.408 46.99 90)
+			(at 169.418 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9215,7 +8166,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 46.99 0)
+			(at 167.64 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9224,7 +8175,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 87.63 46.99 0)
+			(at 167.64 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9786,71 +8737,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 172.72 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "509289d9-7bb6-49ac-b157-928143d1bacc")
-		(property "Reference" "IO17"
-			(at 175.514 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Socket"
-			(at 172.085 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "padLib:SolderPad_1mm_1Pin"
-			(at 172.72 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 172.72 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "62e75670-8f59-4f1c-9a6d-f41c6591e8b1")
-		)
-		(instances
-			(project "openWifiDecoder"
-				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd"
-					(reference "IO17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 71.12 165.1 0)
 		(unit 1)
@@ -10054,7 +8940,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 118.11 0)
+		(at 115.57 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10063,7 +8949,7 @@
 		(fields_autoplaced yes)
 		(uuid "54835d3a-0b53-4bae-bbc9-8d122644bce5")
 		(property "Reference" "#PWR029"
-			(at 130.81 124.46 0)
+			(at 115.57 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10072,7 +8958,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 123.19 0)
+			(at 115.57 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10080,7 +8966,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 118.11 0)
+			(at 115.57 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10089,7 +8975,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 118.11 0)
+			(at 115.57 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10098,7 +8984,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 118.11 0)
+			(at 115.57 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10395,24 +9281,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 90.17 74.93 180)
+		(lib_id "power:+3V3")
+		(at 29.21 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5e4edce7-42c5-473f-b7d4-a27c2a2a6ee0")
-		(property "Reference" "IO9"
-			(at 87.376 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Socket"
-			(at 90.805 72.39 0)
+		(fields_autoplaced yes)
+		(uuid "5ebaf094-d89b-4697-a5de-a1510f05258b")
+		(property "Reference" "#PWR060"
+			(at 29.21 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10420,8 +9299,16 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "padLib:SolderPad_1mm_1Pin"
-			(at 90.17 74.93 0)
+		(property "Value" "+3V3"
+			(at 29.21 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10429,8 +9316,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 90.17 74.93 0)
+		(property "Datasheet" ""
+			(at 29.21 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10438,8 +9325,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 90.17 74.93 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 29.21 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10448,12 +9335,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7c37a3f4-7522-4c1f-8f44-a1c8f1c47e6b")
+			(uuid "227039f8-26d4-45c4-a742-d16bb9687823")
 		)
 		(instances
 			(project "openWifiDecoder"
 				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd"
-					(reference "IO9")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -10800,71 +9687,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 90.17 67.31 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "6df94325-1cf2-49a3-8821-9d48f15e32ec")
-		(property "Reference" "IO5"
-			(at 87.376 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Socket"
-			(at 90.805 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "padLib:SolderPad_1mm_1Pin"
-			(at 90.17 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 90.17 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6d5f7d0c-41c6-47e0-90f4-922ede8a468c")
-		)
-		(instances
-			(project "openWifiDecoder"
-				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd"
-					(reference "IO5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 260.35 76.2 180)
 		(unit 1)
@@ -10935,207 +9757,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 189.23 59.69 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "6f7b7c1a-4b79-4aaf-8e64-c73ce3c8d680")
-		(property "Reference" "R3"
-			(at 191.77 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "USB_PU"
-			(at 191.77 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 187.452 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 189.23 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 189.23 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9e8a82d8-f9ca-4e1a-849a-dc2e3a0135b2")
-		)
-		(pin "1"
-			(uuid "93976fc4-2303-45f2-9dd4-5f611de12a12")
-		)
-		(instances
-			(project "openWifiDecoder"
-				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 29.21 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "71778419-3035-4c7e-bbb8-878a3cac8d54")
-		(property "Reference" "#PWR02"
-			(at 29.21 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 29.21 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 29.21 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "715e0c71-37fa-49dd-9e41-cc84d34f02fa")
-		)
-		(instances
-			(project "openWifiDecoder"
-				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 172.72 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "72c3a0de-320b-4227-bb1e-e51ee7020a2b")
-		(property "Reference" "IO18"
-			(at 175.514 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Socket"
-			(at 172.085 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "padLib:SolderPad_1mm_1Pin"
-			(at 172.72 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 172.72 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b0a5c7f1-7eff-4fd4-a043-43b3038d101e")
-		)
-		(instances
-			(project "openWifiDecoder"
-				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd"
-					(reference "IO18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+1V8")
 		(at 55.88 25.4 0)
 		(unit 1)
@@ -11196,71 +9817,6 @@
 			(project ""
 				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 90.17 82.55 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "74c3fb74-8c8d-4662-a339-2d71ab9d64d8")
-		(property "Reference" "IO2"
-			(at 87.376 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2"
-			(at 90.805 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "padLib:SolderPad_1mm_1Pin"
-			(at 90.17 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 90.17 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4d6c2311-6fbb-4f1e-9ed2-f58a8bd70bbe")
-		)
-		(instances
-			(project "openWifiDecoder"
-				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd"
-					(reference "IO2")
 					(unit 1)
 				)
 			)
@@ -11394,71 +9950,6 @@
 			(project "openWifiDecoder"
 				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd"
 					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 90.17 64.77 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "7ec3bcf7-63df-4806-8b0b-5568732e89e2")
-		(property "Reference" "IO6"
-			(at 87.376 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Socket"
-			(at 90.805 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "padLib:SolderPad_1mm_1Pin"
-			(at 90.17 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 90.17 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7434cbd8-eb44-4874-8fe2-7cfa4b4a138c")
-		)
-		(instances
-			(project "openWifiDecoder"
-				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd"
-					(reference "IO6")
 					(unit 1)
 				)
 			)
@@ -12572,71 +11063,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 90.17 92.71 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "bfaec1b3-8372-49ec-b06c-16b617b370a8")
-		(property "Reference" "IO13"
-			(at 87.884 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Socket"
-			(at 90.805 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "padLib:SolderPad_1mm_1Pin"
-			(at 90.17 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 90.17 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c53357cd-49d9-4e8e-a56c-93140bc14f64")
-		)
-		(instances
-			(project "openWifiDecoder"
-				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd"
-					(reference "IO13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
 		(at 224.79 124.46 0)
 		(unit 1)
@@ -12835,155 +11261,6 @@
 			(project "openWifiDecoder"
 				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:1TS026A-1600-0553-CT")
-		(at 72.39 46.99 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c51f08ed-e017-4e7b-bbb0-a120271e8697")
-		(property "Reference" "RESET1"
-			(at 77.724 46.228 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "RESET"
-			(at 77.724 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L2.6-W1.6-P0.75-LS3.0"
-			(at 82.55 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 72.39 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C913784"
-			(at 85.09 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "0270cf0c-821b-4da2-a0e3-5f3489cc9e09")
-		)
-		(pin "1"
-			(uuid "eee44fcc-1dc4-470a-862b-79997491f982")
-		)
-		(pin "2"
-			(uuid "932ca499-3ec8-4340-8db3-0c833598f871")
-		)
-		(pin "4"
-			(uuid "2cd99b6d-5724-4de5-bcc0-d7323165cbca")
-		)
-		(instances
-			(project ""
-				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd"
-					(reference "RESET1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 179.07 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c554af94-2c93-4849-b873-916448741f49")
-		(property "Reference" "TX0"
-			(at 181.102 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Socket"
-			(at 178.435 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "padLib:SolderPad_1mm_1Pin"
-			(at 179.07 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 179.07 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 179.07 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9479e53c-1df4-4f7f-9d0d-37b6c38682d2")
-		)
-		(instances
-			(project "openWifiDecoder"
-				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd"
-					(reference "TX0")
 					(unit 1)
 				)
 			)
@@ -13364,71 +11641,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 90.17 87.63 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "cdcc17e8-9f73-4fb9-9aa6-c41057a898c1")
-		(property "Reference" "IO11"
-			(at 87.884 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Socket"
-			(at 90.805 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "padLib:SolderPad_1mm_1Pin"
-			(at 90.17 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 90.17 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2055952a-68c5-4dd1-92f7-876b774fb78f")
-		)
-		(instances
-			(project "openWifiDecoder"
-				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd"
-					(reference "IO11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 233.68 161.29 180)
 		(unit 1)
@@ -13493,71 +11705,6 @@
 			(project "openWifiDecoder"
 				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 172.72 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "ceccfc36-06ae-41c9-8436-ca817c689fe4")
-		(property "Reference" "IO16"
-			(at 175.514 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Socket"
-			(at 172.085 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "padLib:SolderPad_1mm_1Pin"
-			(at 172.72 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 172.72 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b940d54b-a3c2-4acc-b000-e222929a7a71")
-		)
-		(instances
-			(project "openWifiDecoder"
-				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd"
-					(reference "IO16")
 					(unit 1)
 				)
 			)
@@ -13692,72 +11839,6 @@
 			(project "openWifiDecoder"
 				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 189.23 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d53ae487-19e2-4eb4-a523-aaea0f3f7c23")
-		(property "Reference" "#PWR014"
-			(at 189.23 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 189.23 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 189.23 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fb3a13d3-5927-4834-9813-bc248164c458")
-		)
-		(instances
-			(project "openWifiDecoder"
-				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -14575,137 +12656,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 90.17 62.23 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "eb9e53ef-c028-4b78-8b15-4670fcce4af1")
-		(property "Reference" "IO7"
-			(at 87.376 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2"
-			(at 90.805 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "padLib:SolderPad_1mm_1Pin"
-			(at 90.17 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 90.17 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "062bf2ee-69e9-4b11-8f76-b979e8e5663d")
-		)
-		(instances
-			(project "openWifiDecoder"
-				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd"
-					(reference "IO7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 66.04 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec2e1951-87f8-4f81-929d-46f798ac4711")
-		(property "Reference" "#PWR015"
-			(at 66.04 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 66.04 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8392b5b5-99ef-459d-8f92-ff0b99bb2e6f")
-		)
-		(instances
-			(project "openWifiDecoder"
-				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 44.45 39.37 0)
 		(unit 1)
@@ -14900,71 +12850,6 @@
 			(project "openWifiDecoder"
 				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd"
 					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 172.72 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "fa255682-23e8-4dc4-90a2-1fd04ebabccc")
-		(property "Reference" "IO19"
-			(at 175.514 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Socket"
-			(at 172.085 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "padLib:SolderPad_1mm_1Pin"
-			(at 172.72 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 172.72 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f227f21-95ca-4b6f-9ccf-d195682c593c")
-		)
-		(instances
-			(project "openWifiDecoder"
-				(path "/bdf391a9-01cb-4cc3-af9a-dde3067524fd"
-					(reference "IO19")
 					(unit 1)
 				)
 			)
@@ -15323,7 +13208,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -15342,12 +13226,302 @@
 			)
 		)
 		(property "Sheetfile" "esp.kicad_sch"
-			(at 114.3 99.6446 0)
+			(at 132.842 49.022 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "GPIO10" bidirectional
+			(at 114.3 73.66 180)
+			(uuid "36395f1e-a6dd-4ae3-a4d4-8a968053e87e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO11" bidirectional
+			(at 114.3 76.2 180)
+			(uuid "f2a8e834-d60c-4253-af09-7b16e887d318")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO12" bidirectional
+			(at 114.3 78.74 180)
+			(uuid "b0f0b256-4e90-465d-be1f-7409ecae7b0f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO13" bidirectional
+			(at 114.3 81.28 180)
+			(uuid "e2bc8c80-b070-4157-a568-7c97352573b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO14" bidirectional
+			(at 114.3 83.82 180)
+			(uuid "5609274d-4fa0-4ce8-9650-0290e7053c85")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO17" bidirectional
+			(at 114.3 86.36 180)
+			(uuid "3520645d-8207-4e45-a823-d2ba1fe40736")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO18" bidirectional
+			(at 114.3 88.9 180)
+			(uuid "96df6207-d32d-4c5d-bc90-da6b23580c96")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO19" bidirectional
+			(at 114.3 91.44 180)
+			(uuid "d545349f-b4a1-4e06-a2b6-61907dfb504b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO20" bidirectional
+			(at 114.3 93.98 180)
+			(uuid "a550f717-1d32-4c59-bd93-fa294c223554")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO21" bidirectional
+			(at 114.3 96.52 180)
+			(uuid "034da5a1-684b-4f2f-a13e-55ef952ea6cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO33" bidirectional
+			(at 151.13 58.42 0)
+			(uuid "3f6404e5-a79f-4723-b8d2-3ce3692751fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO34" bidirectional
+			(at 151.13 60.96 0)
+			(uuid "6de2b3db-5f9b-483c-b137-a464ad6307b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO35" bidirectional
+			(at 151.13 63.5 0)
+			(uuid "8c8e7b3e-4ce3-45d5-aa68-b4c118a2aa62")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO36" bidirectional
+			(at 151.13 66.04 0)
+			(uuid "879f9cbc-865b-4f34-b447-6f5c61d3a97f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO37" bidirectional
+			(at 151.13 68.58 0)
+			(uuid "9ce68a8e-c480-4307-9b72-060d7e8b6870")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO38" bidirectional
+			(at 151.13 71.12 0)
+			(uuid "f3aaf3c6-f316-40e8-ad76-acef5a8ad9ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO0 Flash Mode" bidirectional
+			(at 129.54 99.06 270)
+			(uuid "735bb30e-e690-42c4-a720-5ad4844bb29c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO1" bidirectional
+			(at 114.3 53.34 180)
+			(uuid "37e0b620-01d9-46fa-8db2-bca5bd5fde48")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO2" bidirectional
+			(at 114.3 55.88 180)
+			(uuid "369f10ed-6eac-4c81-bf3a-20f0c0bdcf6a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO3 JTAG Source" bidirectional
+			(at 132.08 99.06 270)
+			(uuid "01369139-19e3-4046-9e26-c60d3ac85a44")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO4" bidirectional
+			(at 114.3 58.42 180)
+			(uuid "739ea8c5-c837-4ad7-b40f-10e4e6ef39d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO5" bidirectional
+			(at 114.3 60.96 180)
+			(uuid "d1551e2d-a2dd-4bd1-b33d-edaac70722f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO6" bidirectional
+			(at 114.3 63.5 180)
+			(uuid "cb58c9d4-ece2-4d53-9e18-0f1f73d6207e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO7" bidirectional
+			(at 114.3 66.04 180)
+			(uuid "7627da38-ab5d-449f-862e-beba8f010d76")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO8" bidirectional
+			(at 114.3 68.58 180)
+			(uuid "f33be038-5b1c-470b-9a23-008a3348c8fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO9" bidirectional
+			(at 114.3 71.12 180)
+			(uuid "b493e4e7-a628-409c-ad46-14b5facaf76e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO46 Flash Mode" bidirectional
+			(at 137.16 99.06 270)
+			(uuid "cfbc5917-8f28-4078-83af-1f1cc7dd6d51")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO45 SPI Voltage" bidirectional
+			(at 134.62 99.06 270)
+			(uuid "553ad261-3614-4173-9b33-6ded1d686361")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RST" bidirectional
+			(at 151.13 85.09 0)
+			(uuid "f19fdb96-3417-4e77-b499-07d9ea40cc07")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
