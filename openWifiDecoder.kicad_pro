@@ -188,8 +188,11 @@
       ],
       "track_widths": [
         0.0,
+        0.09,
         0.1,
+        0.15,
         0.2,
+        0.25,
         0.5,
         1.0,
         1.5
@@ -514,12 +517,32 @@
         "microvia_drill": 0.1,
         "name": "2.5A",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.5,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.15,
+        "diff_pair_width": 0.3589,
+        "name": "50OHM",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1161,
+        "via_diameter": 0.25,
+        "via_drill": 0.15
+      },
+      {
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.1257,
+        "name": "75OHM",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "bus_width": 12,
@@ -531,7 +554,7 @@
         "microvia_drill": 0.1,
         "name": "smol",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.5,
@@ -547,6 +570,9 @@
       "+BATT": [
         "2.5A"
       ],
+      "Net-(ANT1-FEED)": [
+        "50OHM"
+      ],
       "Net-(BAT1-Pin_2)": [
         "2.5A"
       ],
@@ -555,9 +581,21 @@
       ],
       "Net-(IC1-OUT2)": [
         "2.5A"
+      ],
+      "Net-(U3-LNA_IN)": [
+        "50OHM"
       ]
     },
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "75OHM",
+        "pattern": "D+"
+      },
+      {
+        "netclass": "75OHM",
+        "pattern": "D-"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
